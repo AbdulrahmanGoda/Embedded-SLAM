@@ -3,7 +3,7 @@ A Lightweight Real-Time SLAM Library in C++ for Resource-Constrained Robots.
 
 
 Draft
-
+```
 /embedded_slam/
 │── main.cpp              # Entry point (task scheduling, SLAM loop, goal handling)
 │── slam/
@@ -30,3 +30,4 @@ Draft
 └── utils/
      ├── math_utils.cpp   # Jacobians, matrix ops (if not using Eigen-lite)
      └── logger.cpp       # Serial / UART debugging
+```
